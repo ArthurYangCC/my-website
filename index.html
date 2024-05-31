@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投影仪公司 - 产品展示</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #ffffff;
+        }
+        header {
+            background: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .intro {
+            padding: 50px;
+            text-align: center;
+            background: #202020;
+        }
+        .intro h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .intro p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background: #333;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            background: #444;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 15px 0;
+            font-size: 1.5em;
+        }
+        .product p {
+            font-size: 1em;
+            line-height: 1.4;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1f1f1f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>投影仪公司</h1>
+    </header>
+    <section class="intro">
+        <h2>欢迎来到我们的世界</h2>
+        <p>我们是一家专业的投影仪公司，致力于提供高质量的投影设备和服务。无论您是家庭娱乐、商务会议还是教育培训，我们都有适合您的解决方案。</p>
+    </section>
+    <section class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="产品1">
+            <h3>产品1</h3>
+            <p>高亮度高清投影仪，适合家庭影院和商务演示。</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="产品2">
+            <h3>产品2</h3>
+            <p>便携式迷你投影仪，小巧轻便，随时随地享受大屏幕。</p>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="产品3">
+            <h3>产品3</h3>
+            <p>专业级4K投影仪，超高清画质，适合高端用户。</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 投影仪公司. 版权所有.</p>
+    </footer>
+</body>
+</html>
